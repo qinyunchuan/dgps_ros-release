@@ -18,7 +18,7 @@ tracks:
     last_version: 1.0.0
     name: upstream
     patches: null
-    release_inc: '3'
+    release_inc: '4'
     release_repo_url: https://github.com/qinyunchuan/dgps_ros-release.git
     release_tag: :{version}
     ros_distro: kinetic
