@@ -1,0 +1,12 @@
+Source: ros-kinetic-dgps-ros
+Section: misc
+Priority: optional
+Maintainer: Qin Yunchuan (freasy) <qinyunchuan@hnu.edu.cn>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/dgps_ros
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-dgps-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Description: The dgps_ros package
